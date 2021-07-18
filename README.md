@@ -13,3 +13,7 @@ The `utils.py` file contains some common utility functionalities shared by the `
 ## Dataset Acquisition
 
 Our work used two datasets: [CNRPark+EXT](http://cnrpark.it/) and [PKLot](https://web.inf.ufpr.br/vri/databases/parking-lot-database/). To use this data, create a `Data` directory locally and downlaod the datasets to that directory.
+
+## Contact Us
+
+Any questions may be directed to Anthony999@MissouriState.edu, Ellis314@MissouriState.edu, or Naseem667@MissouriState.edu.
