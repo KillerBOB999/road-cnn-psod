@@ -25,7 +25,7 @@ set_seed(seed)
 callbacks = [
     keras.callbacks.EarlyStopping(
         monitor = "val_loss",
-        patience = 3,
+        patience = 6,
         verbose = 1,
         restore_best_weights = True,
         min_delta = 0.01
@@ -204,7 +204,6 @@ def makeModel(inputShape: Tuple[int], modelName:str = '') -> keras.Model:
 """
 All of the following functions define the various models that can be used.
 Each has the same signature:
-
 ------------------------ Params ------------------------
     inputShape: Tuple[int]      The shape of the images
     modelName: str              The name of the model
